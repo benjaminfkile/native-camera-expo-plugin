@@ -1,8 +1,10 @@
 {
   "name": "native-camera-expo-plugin",
   "version": "1.0.0",
-  "main": "withNativeCameraPlugin.js",
+  "main": "build/withNativeCameraPlugin.js",
+  "types": "build/withNativeCameraPlugin.d.ts",
   "scripts": {
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -11,5 +13,8 @@
   "description": "",
   "dependencies": {
     "@expo/config-plugins": "^10.1.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2"
   }
 }
